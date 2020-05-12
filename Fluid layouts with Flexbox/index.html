@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="discription" content="Welcome to my kakao clone!" />
+    <meta name="author" content="박종국" />
+    <title>Fluid layouts with Flexbox</title>
+    <style>
+      html,
+      body {
+        height: 100%;
+      }
+      .father {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        height: 100%;
+        flex-wrap: nowrap;
+      }
+      .box {
+        height: 200px;
+        width: 200px;
+        background-color: blueviolet;
+        border: 1px solid black;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="father">
+      <div class="box">1</div>
+      <div class="box">2</div>
+      <div class="box">3</div>
+      <div class="box">4</div>
+      <div class="box">5</div>
+      <div class="box">6</div>
+      <div class="box">7</div>
+      <div class="box">8</div>
+      <div class="box">9</div>
+      <div class="box">10</div>
+    </div>
+  </body>
+</html>

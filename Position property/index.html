@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="discription" content="Welcome to my Kakao Clone" />
+    <meta name="author" content="박종국" />
+    <title>Position property</title>
+    <style>
+      body,
+      html {
+        height: 100%;
+        margin: 0px;
+        padding: 0px;
+      }
+      body {
+        height: 400%;
+        background-color: skyblue;
+      }
+      .abs_box {
+        height: 400px;
+        width: 400px;
+        background-color: hotpink;
+        position: relative;
+      }
+      .abs-child {
+        height: 100px;
+        width: 100px;
+        background-color: indianred;
+        position: absolute;
+        right: 10px;
+        top: 10px;
+      }
+      /* Fixed position!
+      #boxone {
+        height: 300px;
+        width: 300px;
+        background-color: springgreen;
+        position: static;
+      }
+      #boxtwo {
+        height: 300px;
+        width: 300px;
+        background-color: greenyellow;
+        position: fixed;
+        left: 50%;
+        bottom: 50px;
+      }*/
+    </style>
+  </head>
+  <body>
+    <div class="abs_box">
+      <div class="abs-child"></div>
+    </div>
+    <!-- Position Fixed
+    <div id="boxone">
+      <div class="box-child"></div>
+    </div>
+    <div id="boxtwo">
+      <div class="box-child"></div>
+    </div>-->
+  </body>
+</html>
