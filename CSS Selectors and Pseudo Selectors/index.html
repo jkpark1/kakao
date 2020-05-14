@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="discription" content="Welcome to my kakao clone!" />
+    <meta name="autour" content="박종국" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Selector and Pseudo Selector</title>
+    <style>
+      /* input[required="required"] {
+        background-color: blueviolet;
+      }
+
+      input {
+        border: solid 2px black;
+      } */
+      .container > .box {
+        background-color: yellowgreen;
+      }
+      .box: {
+        background-color: red;
+        height: 200px;
+        display: block;
+        border: solid 1.5px black;
+      }
+      .child {
+        background-color: blueviolet;
+        width: 40px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box">
+        <div class="box child">
+          <div class="box">
+            <div class="box"></div>
+          </div>
+        </div>
+      </div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box">
+        <input type="password" />
+        <input type="submit" value="Sign in!" />
+      </div>
+    </div>
+  </body>
+</html>
