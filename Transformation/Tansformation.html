@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=divice-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-compaible" content="ie-edge" />
+    <title>Transformations</title>
+    <style>
+      /* Transformaton : 오브젝트에 회전 변형등 다양한 효과를 넣을 수 있다
+      Transition과 함께 사용할 수 있다. */
+      .box {
+        width: 100px;
+        height: 100px;
+        background-color: red;
+        transition: transform 0.5s ease-in-out;
+      }
+      .box:hover {
+        transform: rotate(5turn) scale(0.5);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box"></div>
+  </body>
+</html>
